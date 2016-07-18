@@ -1,34 +1,38 @@
-Gap Barcode App
+<h1>Gap Barcode App</h1>
 
-You will need the following software
-npm - node package manager
-bower - dependency management
-ionic - mobile framework
-force-server - force.com proxy for web browser testing
+<p>You will need the following software</p>
+<ul>
+<li>npm - node package manager</li>
+<li>bower - dependency management</li>
+<li>ionic - mobile framework</li>
+<li>force-server - force.com proxy for web browser testing</li>
+</ul>
 
-Install the iOS Platform
-ionic platform add ios@3.9.2
+<h3>Install the iOS Platform</h3>
+<p>ionic platform add ios@3.9.2</p>
 
-Install the plugins, resources & dependencies
-npm install
-ionic resources ios
-cordova plugin add https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin
-cordova plugin add https://github.com/wildabeast/BarcodeScanner.git
-cordova plugin add cordova-plugin-touchid
-bower install --save signature_pad
+<h3>Install the plugins, resources & dependencies</h3>
+<ul>
+<li>npm install</li>
+<li>ionic resources ios</li>
+<li>cordova plugin add https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin</li>
+<li>cordova plugin add https://github.com/wildabeast/BarcodeScanner.git</li>
+<li>cordova plugin add cordova-plugin-touchid</li>
+<li>bower install --save signature_pad</li>
+</ul>
 
-Test in the browser
-cd www
-force-server
+<h3>Test in the browser</h3>
+<p>cd www</p>
+<p>force-server</p>
 
-Prepare for deployment
-ionic prepare
+<h3>Prepare for deployment</h3>
+<p>ionic prepare</p>
 
-Build for deployment (can be done in xcode)
-ionic build
+<h3>Build for deployment (can be done in xcode)</h3>
+<p>ionic build</p>
 
-Emulate in the simulator
-ionic emulate
+<h3>Emulate in the simulator</h3>
+<p>ionic emulate</p>
 
-Run on device (load project in XCode (platforms/ios/BATBarcode.xcodeproj) if required)
-ionic run --device
+<h3>Run on device (load project in XCode (platforms/ios/BATBarcode.xcodeproj) if required)</h3>
+<p>ionic run --device</p>
