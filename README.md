@@ -2,10 +2,10 @@
 
 <p>You will need the following software</p>
 <ul>
-<li>npm - node package manager</li>
-<li>bower - dependency management</li>
-<li>ionic - mobile framework</li>
-<li>force-server - force.com proxy for web browser testing</li>
+<li><b>npm</b> - node package manager</li>
+<li><b>bower</b> - dependency management</li>
+<li><b>ionic</b> - mobile framework</li>
+<li><b>force-server</b> - force.com proxy for web browser testing</li>
 </ul>
 
 <h3>Install the iOS Platform</h3>
