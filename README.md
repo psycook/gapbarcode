@@ -9,7 +9,7 @@
 </ul>
 
 <h3>Install the iOS Platform</h3>
-<p>ionic platform add ios@3.9.2</p>
+<pre>ionic platform add ios@3.9.2</pre>
 
 <h3>Install the plugins, resources & dependencies</h3>
 <ul>
