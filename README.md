@@ -12,27 +12,29 @@
 <pre>ionic platform add ios@3.9.2</pre>
 
 <h3>Install the plugins, resources & dependencies</h3>
-<ul>
-<li>npm install</li>
-<li>ionic resources ios</li>
-<li>cordova plugin add https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin</li>
-<li>cordova plugin add https://github.com/wildabeast/BarcodeScanner.git</li>
-<li>cordova plugin add cordova-plugin-touchid</li>
-<li>bower install --save signature_pad</li>
-</ul>
+<pre>
+npm install
+ionic resources ios
+cordova plugin add https://github.com/forcedotcom/SalesforceMobileSDK-CordovaPlugin
+ordova plugin add https://github.com/wildabeast/BarcodeScanner.git
+cordova plugin add cordova-plugin-touchid
+bower install --save signature_pad
+</pre>
 
 <h3>Test in the browser</h3>
-<p>cd www</p>
-<p>force-server</p>
+<pre>
+cd www
+force-server
+</pre>
 
 <h3>Prepare for deployment</h3>
-<p>ionic prepare</p>
+<pre>ionic prepare</pre>
 
 <h3>Build for deployment (can be done in xcode)</h3>
-<p>ionic build</p>
+<pre>ionic build</pre>
 
 <h3>Emulate in the simulator</h3>
-<p>ionic emulate</p>
+<pre>ionic emulate</pre>
 
 <h3>Run on device (load project in XCode (platforms/ios/BATBarcode.xcodeproj) if required)</h3>
-<p>ionic run --device</p>
+<pre>ionic run --device</pre>
